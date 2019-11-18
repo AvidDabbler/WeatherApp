@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Weather App</h1>
+
+    <div id="app">Checking the weather near you...</div>
+    <div id="icon"></div>
+    <div id="temp"></div>
+    <div id="desc"></div>
+
+    <div class="mb4 mb0-ns fl w-100 w-90-l" id="zip" >
+        <p class="f4 fw6 mb2 f6 mt0">
+            Search for another Zipcode
+        </p>
+        <input id="zip_input" placeholder="Zipcode" class="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box">
+        <input id="zip_submit" type="submit" class="input-reset w-100 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray">
+      </div>
+
+    <script src="app.js" type="module" async defer></script>
+</body>
+</html>

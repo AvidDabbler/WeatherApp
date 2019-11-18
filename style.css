@@ -1,0 +1,14 @@
+body {
+    margin: 1em auto;
+    max-width: 30em;
+    width: 88%;
+}
+#app, #icon, #temp{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+#zip{
+    display: inline;
+}
